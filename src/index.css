@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --color-primary: #137fec;
+  --color-primary-light: #e0f2fe;
+  --color-primary-dark: #1e40af;
+  --color-accent: #38bdf8;
+
+  --color-background-light: #ffffff;
+  --color-background-alt: #f0f9ff;
+  /* Very light blue tint */
+
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Manrope", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans bg-white text-slate-800 antialiased;
+  }
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-md border border-white/50 shadow-sm;
+}
+
+::selection {
+  background-color: #137fec;
+  /* var(--color-primary) isn't working directly in some tailwind versions without config, using hex for safety or theme function */
+  color: white;
+}
