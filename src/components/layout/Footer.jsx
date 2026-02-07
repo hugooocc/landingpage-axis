@@ -11,8 +11,8 @@ export function Footer() {
                         <div className="flex items-center gap-2 mb-8">
                             <img src="/logoaxis.png" alt="Axis BCN Realty" className="h-12 w-auto drop-shadow-sm brightness-0 invert" />
                         </div>
-                        <p className="text-base leading-relaxed mb-8 pr-10 text-slate-400">
-                            Líderes en consultoría inmobiliaria técnica, especializados en tasaciones, informes y certificaciones con cobertura nacional. Rigor, rapidez y profesionalidad.
+                        <p className="text-base leading-relaxed mb-8 pr-10 text-slate-300">
+                            Líderes en consultoría inmobiliaria técnica, especializados en reportajes fotográficos, informes y certificaciones con cobertura nacional. Rigor, rapidez y profesionalidad.
                         </p>
                         <div className="flex gap-4">
                             <a href="#" className="size-10 rounded-full border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white hover:border-primary transition-all group">
@@ -28,7 +28,7 @@ export function Footer() {
                     <div className="lg:col-span-2">
                         <h5 className="text-white font-bold mb-8 uppercase text-xs tracking-widest">Servicios</h5>
                         <ul className="space-y-4 text-sm font-medium">
-                            <li><a href="#" className="text-slate-400 hover:text-primary transition-colors">Tasaciones</a></li>
+                            <li><a href="#" className="text-slate-400 hover:text-primary transition-colors">Reportajes Fotográficos</a></li>
                             <li><a href="#" className="text-slate-400 hover:text-primary transition-colors">Visitas Técnicas</a></li>
                             <li><a href="#" className="text-slate-400 hover:text-primary transition-colors">Certificados Energéticos</a></li>
                             <li><a href="#" className="text-slate-400 hover:text-primary transition-colors">Habitabilidad</a></li>
@@ -41,8 +41,8 @@ export function Footer() {
                         <ul className="space-y-4 text-sm font-medium">
                             <li><a href="#" className="text-slate-400 hover:text-primary transition-colors">Sobre Nosotros</a></li>
                             <li><a href="#" className="text-slate-400 hover:text-primary transition-colors">Red de Técnicos</a></li>
-                            <li><a href="#" className="text-slate-400 hover:text-primary transition-colors">Casos de Éxito</a></li>
-                            <li><a href="#" className="text-slate-400 hover:text-primary transition-colors">Aviso Legal</a></li>
+
+                            <li><a href="/aviso-legal" className="text-slate-400 hover:text-primary transition-colors">Aviso Legal</a></li>
                         </ul>
                     </div>
 

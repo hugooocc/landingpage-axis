@@ -5,6 +5,7 @@ import { Services } from '../components/sections/Services';
 import { About } from '../components/sections/About';
 import { ContactForm } from '../components/sections/ContactForm';
 import { IntroAnimation } from '../components/layout/IntroAnimation';
+import { SEO } from '../components/SEO';
 import { useState, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 
@@ -13,6 +14,7 @@ export default function Home() {
 
     return (
         <>
+            <SEO />
             <AnimatePresence>
                 {showIntro && (
                     <IntroAnimation onComplete={() => setShowIntro(false)} />

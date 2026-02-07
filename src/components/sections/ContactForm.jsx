@@ -26,7 +26,7 @@ export function ContactForm() {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-slate-900">Departamento Técnico</h4>
-                                    <p className="text-slate-600 text-sm">info@axisbcnrealty.com</p>
+                                    <p className="text-slate-600 text-sm">valoraciones@axisbcn.com</p>
                                 </div>
                             </div>
 

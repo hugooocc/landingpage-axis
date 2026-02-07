@@ -38,7 +38,7 @@ export function Header() {
                         alt="Axis BCN Realty"
                         className={cn(
                             "w-auto transition-all duration-500",
-                            isScrolled ? "h-14 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" : "h-20 drop-shadow-md"
+                            isScrolled || location.pathname === '/aviso-legal' ? "h-14 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]" : "h-20 drop-shadow-md"
                         )}
                     />
                 </Link>
