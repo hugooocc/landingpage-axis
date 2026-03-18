@@ -5,4 +5,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/axis/',
   plugins: [react()],
+  server: {
+    host: true,
+    hmr: {
+      host: '187.33.144.10',
+      clientPort: 80,
+    },
+    allowedHosts: ['187.33.144.10'],
+  },
 })
